@@ -83,4 +83,4 @@ Despite modest standalone performance, these results establish proof-of-concept 
 ## Documentation
 
 For detailed methodology, results analysis, and future research directions, see:
-- [📄 Comprehensive Project Summary](./docs/Tongue_Heart_Disease_Summary.docx)
+- [📄 Comprehensive Project Summary](docs/Analysis_Summary.pdf)
