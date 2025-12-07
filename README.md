@@ -9,7 +9,7 @@ This project is part of a multi-modal cardiovascular disease detection research 
 
 ## Overview
 
-This project explores whether tongue photographs can reveal indicators of cardiovascular disease through deep learning analysis. Building upon centuries of Traditional Chinese Medicine practices that associate tongue appearance with internal organ function, this research applies modern convolutional neural networks to automatically discover diagnostic patterns in tongue images. Unlike the hand-crafted feature engineering approach used in the [eye-based detection project](https://github.com/yourusername/cardiovascular-eye-detection), this work employs end-to-end deep learning to extract features directly from raw image data, investigating whether subtle tongue characteristics including color, coating, texture, and moisture can serve as biomarkers for cardiovascular health.
+This project explores whether tongue photographs can reveal indicators of cardiovascular disease through deep learning analysis. Building upon centuries of Traditional Chinese Medicine practices that associate tongue appearance with internal organ function, this research applies modern convolutional neural networks to automatically discover diagnostic patterns in tongue images. Unlike the hand-crafted feature engineering approach used in the [eye-based detection project](https://github.com/katarinatmb/eye-heart-disease-ml), this work employs end-to-end deep learning to extract features directly from raw image data, investigating whether subtle tongue characteristics including color, coating, texture, and moisture can serve as biomarkers for cardiovascular health.
 
 The project analyzes a dataset of 830 tongue photographs from individuals with and without heart disease, developing a custom CNN architecture to classify cardiovascular status. This complements our eye-based research by exploring a different physiological manifestation of cardiovascular function, with the ultimate goal of combining both modalities in a multi-modal diagnostic system.
 
@@ -70,7 +70,7 @@ The model correctly identified 47 of 80 healthy controls and 39 of 80 heart dise
 
 ### Performance Analysis
 
-The achieved AUC of 0.605 represents meaningful signal detection above the 0.5 random baseline, confirming that tongue images contain some cardiovascular information. However, this performance falls substantially short of clinical utility thresholds and notably lags behind our parallel [eye-based detection system](https://github.com/yourusername/cardiovascular-eye-detection) which achieved AUC 0.732 using hand-crafted features.
+The achieved AUC of 0.605 represents meaningful signal detection above the 0.5 random baseline, confirming that tongue images contain some cardiovascular information. However, this performance falls substantially short of clinical utility thresholds and notably lags behind our parallel [eye-based detection system](https://github.com/katarinatmb/eye-heart-disease-ml) which achieved AUC 0.732 using hand-crafted features.
 
 This performance gap likely reflects several factors:
 1. **Feature Engineering vs. End-to-End Learning:** The eye-based system employed 67 expertly designed features targeting known cardiovascular manifestations, while the CNN learned features automatically from limited data
